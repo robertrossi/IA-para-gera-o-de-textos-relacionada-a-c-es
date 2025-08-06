@@ -8,7 +8,7 @@ st.title("Gerador de conteúdo")
 # Campos do formulário
 topic = st.text_input("Tema:", placeholder="Ex: Raças, alimentação saudável, curiosidades...")
 platform = st.selectbox("Plataforma:", ['Instagram', 'Facebook', 'LinkedIn', 'Blog', 'E-mail, whatsapp'])
-tone = st.selectbox("Tom:", ['Normal', 'Informativo', 'Inspirador', 'Urgente', 'Informal'])
+tone = st.selectbox("Tom:", ['Normal', 'Informativo', 'Inspirador', 'Urgente', 'Informal','Engraçado'])
 length = st.selectbox("Tamanho:", ['Curto', 'Médio', 'Longo'])
 audience = st.selectbox("Público-alvo:", ['Geral', 'Jovens adultos', 'Famílias', 'Idosos', 'Adolescentes'])
 cta = st.checkbox("Incluir CTA")
