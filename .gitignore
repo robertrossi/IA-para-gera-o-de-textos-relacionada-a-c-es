@@ -1,0 +1,37 @@
+# Evita subir credenciais
+.env
+
+# Pasta de ambiente virtual (ajuste o nome se for diferente)
+venv/
+.env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs temporários
+*.log
+
+# Cache do Streamlit
+.streamlit/
+
+# Arquivos do VSCode
+.vscode/
+
+# Arquivos do Jupyter/Colab (caso usar)
+.ipynb_checkpoints/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por testes ou builds
+dist/
+build/
+*.egg-info/
+
+
+#API
+.env
